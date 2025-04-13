@@ -1,7 +1,7 @@
 import axios from "axios";
 import { handleRefreshToken } from "./authServices";
 
-axios.defaults.baseURL = "http://localhost:5001/api/";
+axios.defaults.baseURL = "https://urlshortner-x99b.onrender.com/api/";
 
 axios.interceptors.request.use(
   function (config) {

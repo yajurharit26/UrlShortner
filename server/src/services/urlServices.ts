@@ -4,7 +4,7 @@ import { UrlPayloadType, UrlType } from "../types";
 import Url from "../models/UrlModel";
 
 // Base URL for shortened links
-const BASE_URL = process.env.BASE_URL || "http://localhost:5001/api/url";
+const BASE_URL = process.env.BASE_URL || "https://urlshortner-x99b.onrender.com/api/url";
 
 //create
 export const createUrl = async (payload: UrlPayloadType) => {
